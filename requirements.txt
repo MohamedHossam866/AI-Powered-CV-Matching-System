@@ -1,0 +1,21 @@
+# Core
+pypdf==5.1.0
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+python-dotenv==1.0.1
+
+# NLP / embeddings
+sentence-transformers==3.3.1
+torch==2.5.1
+
+# OCR fallback (also needs system packages: poppler-utils, tesseract-ocr)
+pdf2image==1.17.0
+pytesseract==0.3.13
+opencv-python-headless==4.10.0.84
+
+# Interface
+gradio==5.9.1
+
+# Notebook / plots
+matplotlib==3.9.2
